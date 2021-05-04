@@ -4,14 +4,14 @@ This is my project demonstrating the creation of virtual networks and their supp
 
 The files in this repository were used to configure the network depicted below.
 
-![virtual network](Images/https://app.diagrams.net/#G1hqXQgKZczenmBvu56Qo5u4FECKrIiNyo)
+![virtual network](Images/)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   
   - https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml to install and configure Filebeat on the target machines.
   - https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/elk-play.yml to install and configure the ELK server
-  - ![Metricbeat Playbook] https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml to install and configure Metricbeat on the target machines.
+  - https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml to install and configure Metricbeat on the target machines.
   
 
 This document contains the following details:
