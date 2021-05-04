@@ -71,7 +71,6 @@ you can orchestrate the entire application environment no matter where it may be
 systems you want to automate. Another big advantage is that it reduces the chances of human error.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/elk-play.yml
 . Install docker.io package using apt
 . Install python3-pip package manager using apt
