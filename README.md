@@ -4,7 +4,7 @@ This is my project demonstrating the creation of virtual networks and their supp
 
 The files in this repository were used to configure the network depicted below.
 
-![Project 1 Diagram]
+![Project 1 Diagram](https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Images/project1diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible playbook file may be used to install only certain pieces of it, such as Filebeat.
 
