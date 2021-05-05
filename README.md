@@ -114,7 +114,7 @@ or failed processes.
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the three playbook files (elk-play.yml, filebeat-playbook.yml, and metricbeat-playbook.yml) to the /etc/ansible/roles directory in your control node.
+- Copy the three playbook files [Elk-Play](https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/elk-play.yml) [Filebeat-Playbook](https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml) [Metricbeat-Playbook](https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml) to the /etc/ansible/roles directory in your control node.
 - Update the /etc/ansible/hosts file. You will need to include a group called elk which contain the IP address of the server you wish to install the ELK stack on.
 - Run the playbook, and navigate to http://[Public IP of ELK SERVER:5601] to check that the installation worked as expected.
 
