@@ -70,20 +70,20 @@ you can orchestrate the entire application environment no matter where it may be
 systems you want to automate. Another big advantage is that it reduces the chances of human error.
 
 The playbook implements the following tasks:
-- https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/elk-play.yml
+- [Elk-Stack-Playbook](https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/elk-play.yml)
 . Install docker.io package using apt
 . Install python3-pip package manager using apt
 . Install the docker module using pip
 . Configure the VM to use more memory using sysctl module
 . Download and launch the docker container for Elk Stack
-- https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml 
+- [Filebeat-Playbook](https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml) 
 . Download and install Filebeat
 . Copy configuration for Filebeat
 . Enable Filebeat system module
 . Setup Filebeat  
 . Start and enable Filebeat service
 
-- https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml
+- [Metricbeat-Playbook](https://github.com/ARooBeeOO718/Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml)
 . Download and install Metricbeat
 . Copy Metricbeat configuration
 . Enable Metricbeat docker module
