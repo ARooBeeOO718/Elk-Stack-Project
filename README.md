@@ -29,12 +29,12 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 - Load balancers protect the system from DDoS attacks as it shifts attacking traffic. The advantage of having a jump box is that it gives access to the user from a
-- single node that can be secured and monitored. 
+ single node that can be secured and monitored. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the VM metrics and system logs.
 - Filebeat monitors system logs on machines.
 - Metricbeat records metrics from the operating system and from services running on the server. Metricbeat takes the metrics and statistics that it collects and ships them 
-- to the output that you specify such as Elasticsearch or Logstash.
+ to the output that you specify such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below:
 | Name                 | Function    | IP Address | Operating System |
@@ -109,7 +109,7 @@ These Beats allow us to collect the following information from each machine:
 - Filebeat monitors log files or locations that you specify, collecting log events, and forwards them to either Elasticsearch or Logstash. It allows us to view successful
 or failed processes. 
 
--Metricbeat collects metric information on each system, allowing us to view network I/O, CPU usage, and memory pressure.
+- Metricbeat collects metric information on each system, allowing us to view network I/O, CPU usage, and memory pressure.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
